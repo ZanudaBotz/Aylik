@@ -1,0 +1,90 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+body {
+    margin: 0;
+}
+
+#main {
+    width: 1920px;
+    height: 880px;
+    background-image: url("main-screen__bgc.png");
+}
+#main #logo {
+    margin-left: 80px;
+    margin-top: 40px;
+    display: inline;
+}
+#main_menu {
+    position: absolute;
+    color: white;
+    list-style-type: none;
+    margin-top: -35px;
+    margin-left: 520px;
+}
+#main_menu li {
+    display: inline;
+    margin-left: 56px;
+}
+#ab_main {
+    width: 920px;
+    height: 180px;
+    margin-left: 312px;
+    margin-top: 270px;
+}
+#ab_main h1 {
+    font-size: 64px;
+    line-height: 90px;
+    font-weight: 700;
+    color: white;
+}
+#main_tabs {
+    width: 600px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    color: white;
+    margin-left: 312px;
+}
+#main_tabs .blocks_tab {
+         width: 102px;
+         height: 112px;
+         background: #121212;
+         text-align: center;
+}
+#middle {
+    width: 1920px;
+height: 130px;
+left: 0px;
+top: 830px;
+
+background: #121212;
+}
+#middle #pay_btn {
+    width: 169px;
+    height: 44px;
+    margin-left: 312px;
+    margin-top: 43px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+    color: white;
+    font-weight: lighter;
+}
+
+#middle h2 {
+    font-size: 42px;
+    line-height: 45px;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 650px;
+}
+
+#second {
+    width: 1920px;
+    height: 3200px;
+    background: #0e0e0e;
+}
